@@ -8,7 +8,7 @@ Although independent work, it was significantly helped along by [node-itunesconn
 * iTunes Connect doesn't provide all of the querying functionality that a developer might like (that's not a criticism of iTunes Connect - it can't be all things to all men)
 * Downloading data to CSV before it can be mashed with other data sources is time-consuming
 * Dashboards that combine multiple data sources
-* Organizations should own their own data, and intermediaries such as Apple *should* provide a full API (which is fully documented)
+* Organizations *should* own their own data, and intermediaries such as Apple *should* provide a full API (which is fully documented)
 
 ## What you need
 
@@ -36,8 +36,8 @@ And Python.
   "accounts": [
     {
       "accountName": "<your email>",
-      "password": "<your password",
-      "contentProviderId": "<your contentProviderId",
+      "password": "<your password>",
+      "contentProviderId": "<your contentProviderId>",
       "vendornumber": "<your vendor number>",
       "adamIds": [
         "<adamid>"
